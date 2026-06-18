@@ -4,6 +4,13 @@
 			"type": "stdio",
 			"command": "node",
 			"args": []
+		},
+		"weather-mcp": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"./build/index.js"
+			]
 		}
 	},
 	"inputs": []
